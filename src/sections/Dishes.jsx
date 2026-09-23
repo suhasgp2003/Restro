@@ -1,5 +1,5 @@
 
-import { MotionConfig } from 'motion/react'
+
 import Animated from '../components/Animated'
 import { dishes } from '../data/data'
 import { motion } from 'motion/react'
