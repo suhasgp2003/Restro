@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Animated from '../components/Animated'
 import { faqs } from '../data/data'
 import { Plus, X } from 'lucide-react'
@@ -9,13 +9,13 @@ const FAQ = () => {
         <div className='max-w-3xl mx-auto'>
              <div className='text-center mb-14'>
             <Animated delay={0.2}>
-                <p className='text-orange-500 font-mdium uppercase mb-4'>
+                <p className='text-orange-500 font-medium uppercase mb-4'>
                     FAQs
                 </p>
             </Animated>
 
              <Animated delay={0.2}>
-                <h2 className='text=4xl md:text-5xl max-w-2xl mx-auto text-balance'>
+                <h2 className='text-4xl md:text-5xl max-w-2xl mx-auto text-balance'>
                     Frequently Asked Questions
                 </h2>
             </Animated>

@@ -37,7 +37,7 @@ const HeroSection = () => {
         <Animated className="flex items-center justify-center md:justify-start mt-9">
             <div className='flex -space-x-3.5 pr-3'>
                {avaters.map((src,i)=>(
-                <img key={i} src={src} alt='guest' className='size-10 border-2 border-sltate-50 rounded-full hover:-translate-y-px transition'/>
+                <img key={i} src={src} alt='guest' className='size-10 border-2 border-slate-50 rounded-full hover:-translate-y-px transition'/>
                ))}
             </div>
             <div>

@@ -1,5 +1,5 @@
 
-import { Star, StarIcon } from "lucide-react"
+import { StarIcon } from "lucide-react"
 import Animated from "../components/Animated"
 import { testimonials } from "../data/data"
 
@@ -8,13 +8,13 @@ const TestimonialSection = () => {
     <section id='testimonials' className='px-auto mt-44'>
          <div className='text-center mb-14'>
             <Animated delay={0.2}>
-                <p className='text-orange-500 font-mdium uppercase mb-4'>
+                <p className='text-orange-500 font-medium uppercase mb-4'>
                     LOVED BY FOOD LOVERS
                 </p>
             </Animated>
 
              <Animated delay={0.2}>
-                <h2 className='text=4xl md:text-5xl max-w-lg mx-auto text-balance'>
+                <h2 className='text-4xl md:text-5xl max-w-lg mx-auto text-balance'>
                     What Our Guests Say
                 </h2>
             </Animated>
@@ -34,7 +34,7 @@ const TestimonialSection = () => {
                         </p>
                     </div>
                     <div className="flex items-center gap-3 mt-auto">
-                        <img src={item.avatar} alt={item.avatar} className="size-11 rounded-full object-cover shrink-0" />
+                        <img src={item.avatar} alt={item.name} className="size-11 rounded-full object-cover shrink-0" />
                     </div>
                     <p className="font-medium leading-tight mb-0.5">{item.name}</p>
                     <p className="text-zinc-600">{item.location}</p>

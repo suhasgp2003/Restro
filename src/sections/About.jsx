@@ -11,34 +11,34 @@ const About = () => {
             object-cover rounded-3xl'/>
          </Animated>
 
-         <Animated scale={0.8} y={0} className='flex items-center gap-2'>
-            <img src="/assets/icon.png" className='max-w-137 w-full h-full
-            object-cover rounded-3xl' alt='iconLeft'/>
-            <img src="/assets/iconL.png" alt="iconRight" />
-            <span className='font-medium uppercase'>
-                Crafted with Passion
-            </span>
-            <img src="/assets/iconR.png" alt="iconLeft" />
+         <div className='flex flex-col justify-center'>
+          <Animated scale={0.8} y={0} className='flex items-center gap-2'>
+              <img src="/assets/iconL.png" alt="iconRight" />
+              <span className='font-medium uppercase'>
+                  Crafted with Passion
+              </span>
+              <img src="/assets/iconR.png" alt="iconLeft" />
 
-            </Animated>
+          </Animated>
 
-            <Animated>
+          <Animated>
             <h2 className='mt-5 text-4xl md:text-5xl text-balance'>
                 Experience during beyond expectations
             </h2>
-            </Animated>
+          </Animated>
 
-            <Animated delay={0.2}>
+          <Animated delay={0.2}>
               <p className='mt-4.5 text-zinc-600 max-w-sm'>We combing fresh local ingredients, creative recipes and elegant presentation to deliver a memorable experience with every visit.</p>
-            </Animated>
+          </Animated>
 
-            <Animated className='mt-9 bg-orange-500 text-white p-2 pr-8 rounded-lg flex items-center gap-3 w-fit'>
+          <Animated className='mt-9 bg-orange-500 text-white p-2 pr-8 rounded-lg flex items-center gap-3 w-fit'>
               <img src="/assets/about.png" alt="Bistro Royale Location Preview" className='size-15 rounded-lg object-cover shrink-0' />
               <div className='flex flex-col gap-2'>
                 <p className='font-medium'>Bistro Royale, NY</p>
                 <a href="#">View on Map</a>
               </div>
-            </Animated>
+          </Animated>
+         </div>
 
 
         </div>

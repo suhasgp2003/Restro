@@ -12,13 +12,13 @@ const Features = () => {
     <section id='features' className='px-auto mt-44'>
          <div className='text-center mb-16'>
             <Animated delay={0.2}>
-                <p className='text-orange-500 font-mdium uppercase mb-3.5'>
+                <p className='text-orange-500 font-medium uppercase mb-3.5'>
                     What Sets Us Apart
                 </p>
             </Animated>
 
              <Animated>
-                <h2 className='text=4xl md:text-5xl max-w-lg mx-auto text-balance'>
+                <h2 className='text-4xl md:text-5xl max-w-lg mx-auto text-balance'>
                     Crafting memorable dining experiences
                 </h2>
             </Animated>
