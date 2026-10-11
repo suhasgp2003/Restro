@@ -24,9 +24,9 @@ const TestimonialSection = () => {
             {testimonials.map((item, index)=>(
                 <Animated key={index} y={80} delay={index * 0.1} className="border border-slate-200 hover:bg-slate-50/50 rounded-2xl p-6 flex flex-col justify-between text-left">
                     <div>
-                        <div className="flex gap-0.5 mb-4">
+                        <div className="flex gap-0.5 mb-4" role="img" aria-label={`${item.rating} out of 5 stars`}>
                             {[...Array(item.rating)].map((_,i)=>(
-                                <StarIcon key={i} className="size-4 fill-orange-500 text-orange-500"/>
+                                <StarIcon key={i} aria-hidden="true" className="size-4 fill-orange-500 text-orange-500"/>
                             ))}
                         </div>
                         <p className="text-zinc-600 leading-relaxed mb-6">
@@ -35,9 +35,11 @@ const TestimonialSection = () => {
                     </div>
                     <div className="flex items-center gap-3 mt-auto">
                         <img src={item.avatar} alt={item.name} className="size-11 rounded-full object-cover shrink-0" />
+                        <div>
+                            <p className="font-medium leading-tight mb-0.5">{item.name}</p>
+                            <p className="text-zinc-600">{item.location}</p>
+                        </div>
                     </div>
-                    <p className="font-medium leading-tight mb-0.5">{item.name}</p>
-                    <p className="text-zinc-600">{item.location}</p>
 
                 </Animated>
 

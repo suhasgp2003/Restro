@@ -13,7 +13,7 @@ const BookingProcess = () => {
 
                 </Animated>
                  <Animated delay={0.2}>
-                    <p className='text-4xl md:text-5xl md-16'>Reserve your table in three simple steps</p>
+                    <h2 className='text-4xl md:text-5xl mb-16'>Reserve your table in three simple steps</h2>
 
                 </Animated>
                  <Animated className="flex gap-0.5 mb-6 justify-center md:justify-start">
